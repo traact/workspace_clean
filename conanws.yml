@@ -1,0 +1,5 @@
+editables:
+
+layout: layout_conan
+workspace_generator: cmake
+root: 

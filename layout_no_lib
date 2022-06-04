@@ -1,0 +1,8 @@
+[build_folder]
+build/{{settings.build_type}}
+
+[source_folder]
+.
+
+[includedirs]
+.
