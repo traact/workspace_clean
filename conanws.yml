@@ -1,27 +1,27 @@
 editables:
-  traact_run_env/1.0.0@camposs/stable:
+  traact_run_env/1.0.0@traact/latest:
     path: traact_run_env
     layout: layout_no_lib
-  dataflow_use_case_test/0.0.1@camposs/stable:
+  dataflow_use_case_test/0.0.1@traact/latest:
     path: dataflow_use_case_test
-  traact_core/0.1.0@camposs/stable:
+  traact_core/0.1.0@traact/latest:
     path: traact_core
-  traact_spatial/0.1.0@camposs/stable:
+  traact_spatial/0.1.0@traact/latest:
     path: traact_spatial
-  traact_dataflow_test/0.1.0@camposs/stable:
+  traact_dataflow_test/0.1.0@traact/latest:
     path: traact_dataflow_test
-  traact_vision/0.1.0@camposs/stable:
+  traact_vision/0.1.0@traact/latest:
     path: traact_vision
-  traact_component_basic/0.1.0@camposs/stable:
+  traact_component_basic/0.1.0@traact/latest:
     path: traact_component_basic
-  traact_component_cereal/0.1.0@camposs/stable:
+  traact_component_cereal/0.1.0@traact/latest:
     path: traact_component_cereal
-  traact_component_kinect_azure/0.1.0@camposs/stable:
+  traact_component_kinect_azure/0.1.0@traact/latest:
     path: traact_component_kinect_azure
-  traact_component_aruco/0.1.0@camposs/stable:
+  traact_component_aruco/0.1.0@traact/latest:
     path: traact_component_aruco
-  aruco_test_app/0.1.0@camposs/stable:
+  aruco_test_app/0.1.0@traact/latest:
     path: aruco_test_app
 layout: layout_conan
 workspace_generator: cmake
-root: traact_dataflow_test/0.1.0@camposs/stable, aruco_test_app/0.1.0@camposs/stable
+root: traact_dataflow_test/0.1.0@traact/latest, aruco_test_app/0.1.0@traact/latest
