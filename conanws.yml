@@ -20,8 +20,12 @@ editables:
     path: traact_component_kinect_azure
   traact_component_aruco/1.0.0@traact/latest:
     path: traact_component_aruco
+  traact_component_shm/1.0.0@traact/latest:
+    path: traact_component_shm
+  traact_component_pointcloud/1.0.0@traact/latest:
+    path: traact_component_pointcloud
   aruco_test_app/0.1.0:
     path: aruco_test_app
 layout: layout_conan
 workspace_generator: cmake
-root: traact_dataflow_test/1.0.0@traact/latest, aruco_test_app/0.1.0
+root: traact_dataflow_test/1.0.0@traact/latest, aruco_test_app/0.1.0, traact_component_shm/1.0.0@traact/latest, traact_component_pointcloud/1.0.0@traact/latest
