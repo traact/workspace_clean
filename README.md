@@ -1,5 +1,10 @@
 Conan Workspace setup for local development
 
+# Add remotes
+conan remote add traact-camposs https://conan.campar.in.tum.de/api/conan/conan-traact true
+conan remote add camposs https://conan.campar.in.tum.de/api/conan/conan-camposs true
+
+
 # Installation
 
 git clone https://github.com/traact/traact_clean_workspace.git my_workspace
