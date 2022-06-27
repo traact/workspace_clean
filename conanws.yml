@@ -28,6 +28,8 @@ editables:
     path: aruco_test_app
   app_local/1.0.0:
     path: app_local
+  traact_gui/0.0.1:
+    path: traact_gui
 layout: layout_conan
 workspace_generator: cmake
-root: traact_dataflow_test/1.0.0@traact/latest, aruco_test_app/0.1.0, traact_component_shm/1.0.0@traact/latest, traact_component_pointcloud/1.0.0@traact/latest, app_local/1.0.0
+root: traact_dataflow_test/1.0.0@traact/latest, aruco_test_app/0.1.0, traact_component_shm/1.0.0@traact/latest, traact_component_pointcloud/1.0.0@traact/latest, app_local/1.0.0, traact_gui/0.0.1
