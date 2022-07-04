@@ -24,6 +24,8 @@ editables:
     path: traact_component_pcpd_shm
   traact_component_pointcloud/1.0.0@traact/latest:
     path: traact_component_pointcloud
+  traact_component_http/1.0.0@traact/latest:
+    path: traact_component_http
   aruco_test_app/0.1.0:
     path: aruco_test_app
   test_apps/1.0.0:
